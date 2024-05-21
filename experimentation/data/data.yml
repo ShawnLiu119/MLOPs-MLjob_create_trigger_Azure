@@ -10,5 +10,5 @@ type: uri_file
 name: diabetes-dev-folder
 version: main
 description: experimental dataset for mlops challenge
-path: './MLOPs-MLjob_create_trigger_Azure/experimentation/data'
+path: 'experimentation/data'
 
