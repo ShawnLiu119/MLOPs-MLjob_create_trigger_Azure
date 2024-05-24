@@ -5,8 +5,9 @@ $schema: https://azuremlschemas.azureedge.net/latest/data.schema.json
 # blob:  'wasbs://<container_name>@<account_name>.blob.core.windows.net/<path>/<file>'
 # ADLS gen2: 'abfss://<file_system>@<account_name>.dfs.core.windows.net/<path>/<file>'
 # Datastore: 'azureml://datastores/<data_store_name>/paths/<path>/<file>'
+# not uri_file
 
-type: uri_file
+type: uri_folder 
 name: diabetes-dev-folder
 version: main
 description: experimental dataset for mlops challenge
